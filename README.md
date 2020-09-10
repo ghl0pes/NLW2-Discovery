@@ -19,4 +19,14 @@
   <img src="public/images/images/prints/mobile-disp.PNG" width="180" height="330">  
   <img src="public/images/images/prints/mobile-give.PNG" width="180" height="330">  
 </div>
+
+## :pushpin: Tecnologias usadas
+* HTML5
+* CCS3
+* JavaScript
+* NodeJS
+* SQLite
   
+:bulb: Fique à vontade para fazer issues e colaborar no projeto, estou disposto a avaliar pull requests!
+
+> projeto elaborado em setembro de 2020 por ![Gabriel Lopes](https://github.com/ghl0pes). Mil obrigados à galera da Rocketseat:rocket:
