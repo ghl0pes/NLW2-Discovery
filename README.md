@@ -29,4 +29,4 @@
   
 :bulb: Fique à vontade para fazer issues e colaborar no projeto, estou disposto a avaliar pull requests!
 
-> projeto elaborado em setembro de 2020 por ![Gabriel Lopes](https://github.com/ghl0pes). Mil obrigados à galera da Rocketseat:rocket:
+> projeto elaborado em setembro de 2020 por ![Gabriel Lopes](https://github.com/ghl0pes). Mil obrigados à galera da Rocketseat :rocket:
