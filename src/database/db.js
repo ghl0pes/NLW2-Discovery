@@ -30,6 +30,7 @@ function execute(db){
 
 }
 //inicializar o db: node src/database/'nome do arquivo.js'. 
+//clique com o botão direito no database.sqlite -> open database -> é criado a lista dos objetos no canto inferior esquerdo
 
 module.exports = Database.open(__dirname+'/database.sqlite').then(execute) 
 //then usado para não conflitar a leitura de dados enquanto o db não abriu ainda.
