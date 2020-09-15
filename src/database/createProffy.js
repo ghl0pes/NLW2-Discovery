@@ -1,5 +1,5 @@
 //async para ter a função await
-module.exports = async function(db, {proffyValue, classValue, classScheduleValue}){
+module.exports = async function(db, {proffyValue, classValue, classScheduleValues}){
     //inserir dados na tabela de teachers
 
     //await usado para carregar os dados, e aí depois de pronto passar pra próxima linha
@@ -18,5 +18,25 @@ module.exports = async function(db, {proffyValue, classValue, classScheduleValue
     `)
 
     const proffy_id = insertedProffy.lastID
+
+    //inserir dados na tabela classes
+
+    const insertedClass = await db.run(`
+            INSERT INTO classes(
+                subject,
+                cost,
+                proffy_id
+            ) VALUES(
+                ${classValue.subject},
+                ${classValue.cost},
+                ${proffy_id}
+            )
+    `)
+
+    //inserir valores na tabela schedule
+    const insertedAllClassesSchedulesValues = classScheduleValues.map((value) => {
+
+    })
     
+
 }

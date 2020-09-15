@@ -17,7 +17,7 @@ Database.then((db) =>{
         //proffyid vai ser gerado pelo banco de dados
     }
 
-    classScheduleValue = [
+    classScheduleValues = [
         // class id virá pelo banco de dados após cadastrarmos a class
         {
             weekday: 1,

@@ -19,7 +19,7 @@ function execute(db){
             proffy_id INTEGER
         );
 
-        CREATE TABLE IF NOT EXISTS classe_schedule(
+        CREATE TABLE IF NOT EXISTS class_schedule(
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             class_id INTEGER,
             weekday INTEGER,
